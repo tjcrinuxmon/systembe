@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <meta name="theme-color" content="#12224a" />
+  <title>¡Gracias! — SystemBe</title>
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="brand" aria-label="SystemBe inicio">
+        <img src="assets/img/logo_full.png" alt="SystemBe" class="brand__logo" />
+      </a>
+    </div>
+  </header>
+
+  <main class="thanks">
+    <div class="container thanks__inner">
+      <div class="thanks__check" aria-hidden="true">
+        <svg viewBox="0 0 52 52" width="72" height="72" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 27l8 8 16-18" />
+        </svg>
+      </div>
+      <h1 class="thanks__title">¡Gracias por escribirnos!</h1>
+      <p class="thanks__text">
+        Recibimos tu mensaje correctamente. Nuestro equipo lo revisará y te
+        contactaremos muy pronto para conversar sobre tu proyecto.
+      </p>
+      <p class="thanks__meta">Mientras tanto, si es urgente, escríbenos por WhatsApp.</p>
+      <div class="thanks__actions">
+        <a href="index.html" class="btn btn--primary">Volver al inicio</a>
+        <a href="https://wa.me/525551067741?text=Hola%20SystemBe%2C%20acabo%20de%20enviar%20el%20formulario." target="_blank" rel="noopener" class="btn btn--ghost">Escribir por WhatsApp</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <img src="assets/img/logo_full.png" alt="SystemBe" class="footer__logo" />
+      <p class="footer__tagline">Fábrica de software · México</p>
+      <p class="footer__copy">© <span id="year"></span> SystemBe. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
