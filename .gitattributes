@@ -1,0 +1,8 @@
+# Normalizar saltos de línea a LF para archivos de texto (deploy en Linux)
+* text=auto eol=lf
+
+# Binarios: no tocar
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
