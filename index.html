@@ -22,6 +22,7 @@
       </a>
 
       <nav class="nav" id="nav">
+        <a href="#ofertas" class="nav__link">Ofertas</a>
         <a href="#servicios" class="nav__link">Servicios</a>
         <a href="#nosotros" class="nav__link">Nosotros</a>
         <a href="#proceso" class="nav__link">Proceso</a>
@@ -72,6 +73,38 @@
           </div>
           <div class="floating floating--1">⚡ Escalable</div>
           <div class="floating floating--2">✓ Confiable</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Carrusel de ofertas ===== -->
+    <section class="section carousel-section" id="ofertas">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Promociones</span>
+          <h2 class="section__title">Ofertas del momento</h2>
+        </div>
+
+        <div class="carousel" id="carousel" aria-roledescription="carrusel" aria-label="Ofertas de SystemBe">
+          <div class="carousel__viewport">
+            <div class="carousel__track" id="carouselTrack">
+              <div class="carousel__slide" role="group" aria-roledescription="diapositiva" aria-label="1 de 1">
+                <a href="#contacto" aria-label="Ver oferta Feria de Emprendimiento">
+                  <img src="assets/img/oferta_feria.jpg" alt="Especial Feria de Emprendimiento: página de una sola sección $3,500, varias secciones $5,000, tienda en línea $7,500. Entrega en 24 a 72 horas; hosting, dominio y soporte incluidos por un año." loading="lazy" />
+                </a>
+              </div>
+              <!-- Agrega más slides aquí duplicando .carousel__slide con otra imagen -->
+            </div>
+          </div>
+
+          <button class="carousel__btn carousel__btn--prev" id="carouselPrev" aria-label="Anterior" hidden>
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <button class="carousel__btn carousel__btn--next" id="carouselNext" aria-label="Siguiente" hidden>
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+
+          <div class="carousel__dots" id="carouselDots" aria-label="Selector de diapositivas"></div>
         </div>
       </div>
     </section>
